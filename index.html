@@ -17,10 +17,10 @@
         </style>
           <script src="https://kit.fontawesome.com/27b6146c47.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header class="md:container md:mx-auto">
+<body class="manrope-font">
+    <header class="">
         <!-- navigation bar -->
-        <nav >
+        <nav class="md:container md:mx-auto">
             <div class="navbar bg-base-100 flex-1">
                 <div class="navbar-start avatar placeholder flex items-center">
                  <div class="bg-[#ABEF5F] w-8 rounded-full"><i class="fa-solid fa-arrow-right -rotate-45 text-xl "></i></div>
@@ -49,35 +49,114 @@
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 text-xl font-[300] text-[#737373]">  
                     <li class="hover:text-[#494949] hover:font-bold  duration-300 ease-in-out"><a>Home</a></li>
-                    <li class="hover:text-[#494949] hover:font-bold duration-300 ease-in-out"><a>Services</a</li>
+                    <li class="hover:text-[#494949] hover:font-bold duration-300 ease-in-out bg-gradient-to-r from-[#737373] to-[#D9D9D9] bg-clip-text text-transparent">
+                        <a>Services</a>
+                      </li>
+                      
                     <li class="hover:text-[#494949] hover:font-bold  duration-300 ease-in-out"><a>Portfolio</a></li>
                     <li class="hover:text-[#494949] hover:font-bold duration-300 ease-in-out"><a>Blog</a></li>
                     <li class="hover:text-[#494949] hover:font-bold duration-300 ease-in-out"><a>Contact Us</a></li>
                   </ul>
                 </div>
-                <div class="navbar-end  hidden lg:flex">
-                    <button class="btn btn-ghost btn-circle">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          class="h-5 w-5"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor">
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                        </svg>
-                      </button>
-                  <button class="btn  bg-[#ABEF5F] text-black text-lg font-[500]">Book Consult</button>
+                <div class="navbar-end  hidden lg:flex space-x-3">
+                    <div class="avatar placeholder space-x-3 ">
+                        <button class="btn btn-ghost btn-circle bg-[#FFFFFF] w-12 rounded-full ring ring-gray-100">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </button>
+                         <button class="bg-[#FFFFFF]  w-12 rounded-full ring ring-gray-100 text-gray-500"> 
+                            <i class="fa-solid fa-cart-shopping"></i>
+                         </button>
+                    </div>
+                      
+                  <button class="btn bg-[#ABEF5F] text-black text-lg font-[500] rounded-3xl">Book Consult <div class="bg-black w-8 rounded-full"><i class="fa-solid fa-arrow-right -rotate-45 text-sm  text-white"></i></div></button>
                 </div>
               </div>
         </nav>
-        <!-- banner section with carousel -->
-        
-    
+        <!-- banner section with image -->
+        <div class="bg-[#FFFFFF] shadow-lg h-full">
+                <div class="flex justify-center items-center px-3 py-7">
+                    <img class="" src="assets/banner.png" />
+                </div>
+                <div class="">
+                    <h1 class="text-3xl lg:text-7xl font-bold text-center px-3 py-7">A barn house of this design has a <br>striking appearance</h1>
+                    <p class="text-center text-[#494949] px-3 py-7">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.</p>
+                    <!-- <button class="btn  bg-[#ABEF5F] text-black text-2xl font-[500] rounded-3xl px-3 py-7 ">View Details <div class="bg-[#ABEF5F] w-8 rounded-full"><i class="fa-solid fa-arrow-right -rotate-45 text-sm  text-black"></i></div></button>   -->
+                    <button class="btn text-center bg-gradient-to-r from-[#ABEF5F] to-[#628936] text-black text-lg font-[500] rounded-3xl mx-auto mb-10 flex items-center justify-center ">
+                        View Details
+                        <div class="bg-[#ABEF5F] w-8 rounded-full  ml-2 flex items-center justify-center">
+                            <i class="fa-solid fa-arrow-right -rotate-45 text-sm text-black"></i>
+                        </div>
+                    </button>   
+                </div>
+ 
+        </div>
+        <!-- <div class="h-20"></div> -->
     </header>
-    
+    <!-- liveable spaces section -->
+    <main class=" bg-neutral-100"> 
+        <!-- liveable spaces section -->
+        <section class="md:container md:mx-auto">
+            <div class="lg:flex lg:items-center lg:py-32 px-16">
+                <!-- text section -->
+                <div class="py-1 px-5">
+                    <!-- arrow section -->
+                    <button class="btn text-center text-black text-lg font-[500] rounded-3xl mx-auto mb-10 flex items-center justify-center bg-[#FFFFFF]">
+                        <div class="bg-[#FFFFFF] w-8 rounded-full ml-2 flex items-center justify-center">
+                            <i class="fa-solid fa-arrow-right text-sm text-black"></i>
+                        </div>
+                        About Us
+                    </button>
+        
+                    <!-- text-title section -->
+                    <div>
+                        <h1 class="text-[#212121] text-2xl md:text-3xl lg:text-7xl font-extrabold my-5">We design thoughtful, <br>liveable spaces</h1>
+                        <p class="text-[#494949] my-10">The barn house captivates with its blend of rustic charm and <br>
+                            modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    </div>
+        
+                    <!-- Commercial section -->
+                    <div class="flex  lg:flex-row justify-between bg-[#FFFFFF] rounded-lg py-5 mb-5">
+                        <img src="assets/commercial.png" alt="">
+                        <div class="px-3">
+                            <h1 class="text-2xl px-1 lg:px-3 font-bold text-[#737373]">Commercial</h1>
+                            <p class="px-1 lg:px-3 text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+        
+                    <!-- Residential section -->
+                    <div class="flex  lg:flex-row justify-between bg-[#FFFFFF] rounded-lg">
+                        <img src="assets/residential.png" alt="">
+                        <div class="px-3">
+                            <h1 class="text-2xl px-1 lg:px-3 font-bold text-[#737373]">Residential</h1>
+                            <p class="px-1 lg:px-3 text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- image section -->
+                <div class="mt-5 lg:mt-0">
+                    <img src="assets/Rectangle.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- number of achievements sections -->
+         <section></section>
+         <!-- Our Latest Portfolio -->
+          <section class="md:container md:mx-auto">
+            <!-- info section -->
+             <div>
+                <button class="btn text-center text-black text-md font-[500] rounded-3xl mx-auto mb-10 flex items-center justify-center bg-[#FFFFFF]">
+                    <div class="bg-[#FFFFFF] w-8 rounded-full ml-2 flex items-center justify-center">
+                        <i class="fa-solid fa-arrow-right text-sm text-black"></i>
+                    </div>
+                    How we works
+                </button>
+                <h1>Our Works Process</h1>
+                <p>The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+             </div>
+             <!-- card section -->
+              <div></div>
+          </section>
+    </main>
 </body>
 </html>
