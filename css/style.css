@@ -1,3 +1,7 @@
 .next-project-bg-image{
     background-image: url('../assets/bg.jpg');
 }
+.no-hover-change:hover {
+    background-color: #ABEF5F; /* Use the actual color value */
+    color: black; /* Use the actual color name or hex value */
+  }

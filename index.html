@@ -19,34 +19,36 @@
           <script src="https://kit.fontawesome.com/27b6146c47.js" crossorigin="anonymous"></script>
 </head>
 <body class="manrope-font">
-    <header class="">
+    <header class="bg-[#FFFFFF] ">
         <!-- navigation bar -->
         <nav class="md:container md:mx-auto">
             <div class="navbar bg-base-100 flex-1">
                 <div class="navbar-start avatar placeholder flex items-center">
                  <div class="bg-[#ABEF5F] w-8 rounded-full"><i class="fa-solid fa-arrow-right -rotate-45 text-xl "></i></div>
                  <div>
-                    <a class="btn btn-ghost text-3xl font-bold">Rinterio</a>
+                    <a class=" text-3xl font-extrabold">Rinterio</a>
                  </div>
                   
                 </div>
                 
-                 <div class="navbar-end lg:hidden">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          class="h-5 w-5"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor">
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
-                      </div>
-                 </div>
+                <div class="navbar-end lg:hidden avatar placeholder">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden w-12 h-12 rounded-full ring ring-gray-100 flex items-center justify-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h16M4 18h16" />
+                      </svg>
+                    </div>
+                  </div>
+
+                  
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 text-xl font-[300] text-[#737373]">  
                     <li class="hover:text-[#494949] hover:font-bold  duration-300 ease-in-out"><a>Home</a></li>
@@ -61,28 +63,28 @@
                 </div>
                 <div class="navbar-end  hidden lg:flex space-x-3">
                     <div class="avatar placeholder space-x-3 ">
-                        <button class="btn btn-ghost btn-circle bg-[#FFFFFF] w-12 rounded-full ring ring-gray-100">
+                        <button class="btn btn-ghost btn-circle bg-[#FFFFFF] w-12 rounded-full ring ring-gray-100  text-gray-500">
                             <i class="fa-solid fa-magnifying-glass"></i>
                           </button>
-                         <button class="bg-[#FFFFFF]  w-12 rounded-full ring ring-gray-100 text-gray-500"> 
+                         <button class="btn btn-ghost btn-circle bg-[#FFFFFF]  w-12 rounded-full ring ring-gray-100 text-gray-500"> 
                             <i class="fa-solid fa-cart-shopping"></i>
                          </button>
                     </div>
                       
-                  <button class="btn bg-[#ABEF5F] text-black text-lg font-[500] rounded-3xl">Book Consult <div class="bg-black w-8 rounded-full"><i class="fa-solid fa-arrow-right -rotate-45 text-sm  text-white"></i></div></button>
+                  <button class="btn no-hover-change:hover bg-[#ABEF5F] text-black text-lg font-[500] rounded-3xl">Book Consult <div class="bg-black w-8 rounded-full"><i class="fa-solid fa-arrow-right -rotate-45 text-sm  text-white"></i></div></button>
                 </div>
               </div>
         </nav>
         <!-- banner section with image -->
-        <div class="bg-[#FFFFFF] shadow-lg h-full">
+        <div class="bg-[#FFFFFF] h-full ">
                 <div class="flex justify-center items-center px-3 py-7">
                     <img class="" src="assets/banner.png" />
                 </div>
-                <div class="">
+                <div class="space-y-5">
                     <h1 class="text-3xl lg:text-7xl font-bold text-center px-3 py-7">A barn house of this design has a <br>striking appearance</h1>
                     <p class="text-center text-[#494949] px-3 py-7">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.</p>
                     <!-- <button class="btn  bg-[#ABEF5F] text-black text-2xl font-[500] rounded-3xl px-3 py-7 ">View Details <div class="bg-[#ABEF5F] w-8 rounded-full"><i class="fa-solid fa-arrow-right -rotate-45 text-sm  text-black"></i></div></button>   -->
-                    <button class="btn text-center bg-gradient-to-r from-[#ABEF5F] to-[#628936] text-black text-lg font-[500] rounded-3xl mx-auto mb-10 flex items-center justify-center ">
+                    <button class="btn text-center bg-gradient-to-r from-[#ABEF5F] to-[#628936] text-black text-lg font-[500] rounded-3xl mx-auto flex items-center justify-center ">
                         View Details
                         <div class="bg-[#ABEF5F] w-8 rounded-full  ml-2 flex items-center justify-center">
                             <i class="fa-solid fa-arrow-right -rotate-45 text-sm text-black"></i>
@@ -94,14 +96,18 @@
         <!-- <div class="h-20"></div> -->
     </header>
     <!-- liveable spaces section -->
-    <main class=" bg-neutral-100"> 
+    <main class=" bg-neutral-100 mt-20"> 
         <!-- liveable spaces section -->
         <section class="md:container md:mx-auto">
             <div class="lg:flex lg:items-center justify-between lg:py-10 px-5">
                 <!-- text section -->
-                <div class="">
+                <div class="sm:mt-16 mt-20">
                     <!-- arrow section -->
-                    <button class="btn text-center text-black text-lg font-[500]  rounded-3xl mx-auto mb-10 flex items-center justify-center bg-[#FFFFFF]">
+                     <div class="hidden sm:block">
+                        <img src="assets/Vector.png" alt="">
+                     </div>
+                     <!-- button section -->
+                    <button class="btn lg:justify-start text-black text-lg font-[500]  rounded-3xl mx-auto mb-10 flex bg-[#FFFFFF]">
                         <div class="bg-[#FFFFFF] w-8 rounded-full ml-2 flex items-center justify-center">
                             <i class="fa-solid fa-arrow-right text-sm text-black"></i>
                         </div>
@@ -110,8 +116,8 @@
         
                     <!-- text-title section -->
                     <div>
-                        <h1 class="text-[#212121] text-2xl md:text-3xl lg:text-7xl font-extrabold my-5">We design thoughtful, <br>liveable spaces</h1>
-                        <p class="text-[#494949] my-10">The barn house captivates with its blend of rustic charm and <br>
+                        <h1 class="text-[#212121] text-center text-3xl md:text-3xl lg:text-7xl font-extrabold my-5">We design thoughtful, <br>liveable spaces</h1>
+                        <p class="text-[#494949] my-10 text-center">The barn house captivates with its blend of rustic charm and <br>
                             modern sophistication, featuring weathered wood, sleek metal accents.</p>
                     </div>
         
@@ -224,23 +230,23 @@
              </div>
              <!-- card section -->
               <div class="mt-12 grid grid-cols-1 lg:grid-cols-4 gap-6">
-                <div class="  w-full lg:col-span-3 space-y-3 ">
+                <div class="w-full lg:col-span-3 space-y-3 ">
                     <div class="card lg:card-side bg-base-100  shadow-xl ">
-                        <figure class="w-2/6 pl-5 mt-5">
+                        <figure class=" w-6/6 lg:w-2/6 pl-2 lg:pl-5 mt-5">
                           <img class=" px-3 h-72 py-3 rounded-3xl"
                             src="assets/img1.png"
                             alt="" />
                         </figure>
-                        <div class="w-4/6 card-body">
+                        <div class="w-full card-body">
                           <h2 class="card-title mt-7">Commercial</h2>
-                          <p class="text-left mt-3 text-xl from-neutral-50">The barn house captivates with its blend of rustic charm <br>and modern. The barn house captivates with its blend of<br> rustic charm and modern .</p>
-                          <div class="card-actions ">
+                            <p class="mt-2 text-left from-neutral-50">The barn house captivates with its blend of rustic charm <br>and modern. The barn house captivates with its blend of<br> rustic charm and modern .</p>
+                         <div class="card-actions ">
                             
-                            <button class="btn text-center text-black text-md font-[500] rounded-3xl mx-auto mb-10 flex items-center justify-center bg-[#FFFFFF]">
+                            <button class="btn text-black text-start text-md font-[500] rounded-3xl mx-auto mb-10 flex items-center justify-center bg-[#FFFFFF]">
                                 <div class="bg-[#ABEF5F] w-12 rounded-full ml-2 flex items-center justify-center">
                                     <i class="fa-solid fa-arrow-right -rotate-45 text-sm text-black"></i>
                                 </div>
-                                Explore our Latest works
+                                View Details
                             </button>
                           </div>
                         </div>
@@ -270,23 +276,23 @@
                 <div class=" lg:col-span-2">
                     <div class="  w-full lg:col-span-3 space-y-3 ">
                         <div class="card lg:card-side bg-base-100  shadow-xl ">
-                            <figure class="w-1/2 pl-5 mt-5">
+                            <figure class="w-full pl-5 mt-5">
                               <img class=" px-3 h-72 py-3 rounded-3xl"
                                 src="assets/img4.png"
                                 alt="" />
                             </figure>
-                            <div class="w-1/2 card-body">
-                              <h2 class="card-title mt-7">Commercial</h2>
+                            <div class="w-full card-body">
+                              <h2 class="card-title mt-3">Commercial</h2>
                               <p class="text-left mt-3 text-xl from-neutral-50">The barn house captivates with
                                 its blend of rustic charm and
                                 modern</p>
                               <div class="card-actions ">
                                 
-                                <button class="btn text-center text-black text-md font-[500] rounded-3xl mx-auto mb-10 flex items-center justify-center bg-[#FFFFFF]">
+                                <button class="btn text-start text-black text-md font-[500] rounded-3xl mx-auto mb-10 flex items-center justify-center bg-[#FFFFFF]">
                                     <div class="bg-[#ABEF5F] w-12 rounded-full ml-2 flex items-center justify-center">
                                         <i class="fa-solid fa-arrow-right -rotate-45 text-sm text-black"></i>
                                     </div>
-                                    Explore our Latest works
+                                    View Details
                                 </button>
                               </div>
                             </div>
@@ -305,8 +311,68 @@
 
               </div>
           </section>
-      <!-- Articles and News -->
-          <section></section>
+      <!-- Interior architecture of residentials  -->
+          <section class="md:container md:mx-auto mt-10  text-center bg-slate-200 rounded-xl" >
+
+           <div>
+            <!-- inital text -->
+            <div>
+                <h6 class="manrope-font text-2xl font-bold">INCREDIBLE WAYS TO</h6>
+            </div>
+            <!-- title -->
+            <div>
+                <h1 class="manrope-font  text-2xl font-bold">Showcase Properties</h1>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2  mt-10">
+              <div>
+                 <!-- photo carsoul -->
+                 <div class="carousel w-11/12 lg:w-1/2 px-5 mt-5">
+                    <div id="item1" class="carousel-item w-full">
+                      <img
+                        src="assets/New folder/pic_1.png"
+                        class="w-full" />
+                    </div>
+                    <div id="item2" class="carousel-item w-full">
+                      <img
+                        src="assets/New folder/pic_2.png"
+                        class="w-full" />
+                    </div>
+                    <div id="item3" class="carousel-item w-full">
+                      <img
+                        src="assets/New folder/pic_3.png"
+                        class="w-full" />
+                    </div>
+                    <div id="item4" class="carousel-item w-full">
+                      <img
+                        src="assets/New folder/pic_4.png"
+                        class="w-full" />
+                    </div>
+                  </div>
+                  <div class="flex w-full justify-center gap-2 py-2">
+                    <a href="#item1" class="btn btn-xs">1</a>
+                    <a href="#item2" class="btn btn-xs">2</a>
+                    <a href="#item3" class="btn btn-xs">3</a>
+                    <a href="#item4" class="btn btn-xs">4</a>
+                  </div>
+                
+               </div>
+             <!-- icons  with photo-->
+              <div>
+                <!-- icons  --> 
+                <!-- <div class="space-x-5 text-center mx:auto">
+                    <i class="fa-solid fa-video"> Video</i>
+                    <i class="fa-solid fa-photo-film ">Photo</i>
+                    <i class="fa-regular fa-building ">Building</i>
+                </div> -->
+                 <!--  photo-->
+                 <div class="">
+                    <img class="lg:h-80 px-5 mt-5" src="assets/New folder/pic_5.png" alt="">
+                 </div>  
+
+              </div>
+           </div>
+        </div>
+          </section>
        <!-- Let’s Discuss Next Project -->
           <section class="md:container md:mx-auto next-project-bg-image ">
             <div class="space-y-3 mt-5">
@@ -349,11 +415,11 @@
             </div>
         </div>
              <div class="">
-                <p class="text-xs mt-12 lg:text-xl text-center text-white">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                <p class="text-xs mt-12 lg:text-xl text-center text- text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
              </div>
         
              <div >
-                    <ul class="menu menu-horizontal px-1 text-xs lg:text-xl font-[300] text-white lg:space-x-60">  
+                    <ul class="menu menu-horizontal px-1 text-xs lg:text-xl font-[300] text-[#494949] lg:space-x-60">  
                       <li class="hover:text-[#494949] hover:font-bold  duration-300 ease-in-out"><a>Home</a></li>
                       <li class="hover:text-[#494949] hover:font-bold duration-300 ease-in-out "><a>Services</a></li>
                       <li class="hover:text-[#494949] hover:font-bold  duration-300 ease-in-out"><a>Portfolio</a></li>
